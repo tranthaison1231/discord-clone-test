@@ -4,7 +4,7 @@ import { Outlet, useNavigate } from "react-router-dom";
 
 export default function Org() {
   const navigate = useNavigate();
-  const param = useParams("/{auth}/orgs/:orgID/channels/:channelID");
+  const param = useParams("/orgs/:orgID/channels/:channelID");
 
   const ListClass = [
     {
